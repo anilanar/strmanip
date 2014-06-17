@@ -21,11 +21,11 @@ namespace mnp {
     > class basic_string {
         
     private:
-        class basic_string_impl;
+        class string_funcs;
         
         typedef basic_string<CharT, Traits, Allocator> str_t;
         typedef std::basic_string<CharT, Traits, Allocator> str_o;
-        typedef basic_string_impl _IMPL;
+        typedef string_funcs _IMPL;
         
         typedef str_t&          ref_t;
         typedef const str_t&    const_ref_t;
@@ -62,5 +62,6 @@ namespace mnp {
 }
 
 #include "mnp_string_impl.h"
+#include "mnp_string_funcs.h"
 
 #endif /* defined(__str_manip__string__) */

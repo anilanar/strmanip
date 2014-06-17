@@ -33,6 +33,8 @@
 		04B7A604194F1C460031AE62 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		04B7A607194F278B0031AE62 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gtest.framework; sourceTree = "<group>"; };
 		04B7A611195063010031AE62 /* mnp_string_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_impl.h; sourceTree = "<group>"; };
+		04B7A61219506CBA0031AE62 /* mnp_string_funcs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_funcs.h; sourceTree = "<group>"; };
+		04B7A61319506DBA0031AE62 /* mnp_string_funcs_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_funcs_impl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 			children = (
 				0434A862194DDBCB0009D8FC /* mnp_string.h */,
 				04B7A611195063010031AE62 /* mnp_string_impl.h */,
+				04B7A61219506CBA0031AE62 /* mnp_string_funcs.h */,
+				04B7A61319506DBA0031AE62 /* mnp_string_funcs_impl.h */,
 				04B7A5FB194F1B2C0031AE62 /* str_manip_unit_tests */,
 				0434A85B194DDBAF0009D8FC /* Products */,
 				04B7A607194F278B0031AE62 /* gtest.framework */,
