@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:str_manip_test/str_manip_test.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:str_manip.xcodeproj">
    </FileRef>
 </Workspace>
