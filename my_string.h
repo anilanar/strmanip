@@ -140,6 +140,30 @@ namespace mnp {
             _IMPL::copy(_arr, arr, _size);
             return _size;
         }
+        
+        size_t count(const CharT *arr) const {
+            return 0;
+        }
+        
+        size_t count(const_ref_t str) const {
+            return 0;
+        }
+        
+        size_t count(const_ref_o str) const {
+            return 0;
+        }
+        
+        size_t find(const CharT *arr) const {
+            return 0;
+        }
+        
+        size_t find(const_ref_t str) const {
+            return 0;
+        }
+        
+        size_t find(const_ref_o str) const {
+            return 0;
+        }
     };
     
     typedef basic_string<char, std::char_traits<char>, std::allocator<char>> string;
