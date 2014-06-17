@@ -73,6 +73,36 @@ _INNER_::ref_t __CLS__::operator=(CharT ch) {
 }
 
 __TEMPL__
+size_t __CLS__::find(const_ref_t str) const {
+    return 0;
+}
+
+__TEMPL__
+size_t __CLS__::find(const_ref_o str) const {
+    return 0;
+}
+
+__TEMPL__
+size_t __CLS__::find(const CharT* str) const {
+    return 0;
+}
+
+__TEMPL__
+size_t __CLS__::count(const_ref_t str) const {
+    return 0;
+}
+
+__TEMPL__
+size_t __CLS__::count(const_ref_o str) const {
+    return 0;
+}
+
+__TEMPL__
+size_t __CLS__::count(const CharT* str) const {
+    return 0;
+}
+
+__TEMPL__
 size_t __CLS__::size() const {
     return _size;
 }

@@ -52,6 +52,14 @@ namespace mnp {
         ref_t operator=(const CharT* s);
         ref_t operator=(CharT ch);
         
+        size_t find(const_ref_t str) const;
+        size_t find(const_ref_o str) const;
+        size_t find(const CharT* str) const;
+        
+        size_t count(const_ref_t str) const;
+        size_t count(const_ref_o str) const;
+        size_t count(const CharT* str) const;
+        
         size_t size() const;
         size_t c_str(CharT *arr) const;
         
