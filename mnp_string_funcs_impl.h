@@ -21,7 +21,7 @@ size_t __CLS__::size(const CharT* arr) {
 
 __TEMPL__
 void __CLS__::copy(const CharT* from, CharT* to, size_t size) {
-    memcpy(to, from, (size + 1) * sizeof(CharT));
+    memcpy(to, from, size * sizeof(CharT));
 }
 
 #undef __CLS__

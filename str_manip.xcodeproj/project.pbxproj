@@ -10,9 +10,13 @@
 		04013C3319507009008A5F4F /* mnp_string_count.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04013C3119507009008A5F4F /* mnp_string_count.cpp */; };
 		04013C3419507009008A5F4F /* mnp_string_find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04013C3219507009008A5F4F /* mnp_string_find.cpp */; };
 		0434A864194DDBCB0009D8FC /* mnp_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 0434A862194DDBCB0009D8FC /* mnp_string.h */; };
+		045054F61960594F0041CE3E /* mnp_string_combin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045054F41960594F0041CE3E /* mnp_string_combin.cpp */; };
 		04B7A5FD194F1B2C0031AE62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B7A5FC194F1B2C0031AE62 /* main.cpp */; };
 		04B7A606194F1C460031AE62 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B7A604194F1C460031AE62 /* test.cpp */; };
 		04B7A608194F278B0031AE62 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B7A607194F278B0031AE62 /* gtest.framework */; };
+		04CD1F0419576B8A006627F6 /* x_fast_trie_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CD1F0219576B8A006627F6 /* x_fast_trie_impl.h */; };
+		04CD1F0519576B8A006627F6 /* x_fast_trie.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CD1F0319576B8A006627F6 /* x_fast_trie.h */; };
+		04FBE07E195C95F300A15A5E /* mnp_string_substr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE07C195C95F300A15A5E /* mnp_string_substr.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +36,9 @@
 		04013C3219507009008A5F4F /* mnp_string_find.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mnp_string_find.cpp; sourceTree = "<group>"; };
 		0434A85A194DDBAF0009D8FC /* libstr_manip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstr_manip.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0434A862194DDBCB0009D8FC /* mnp_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mnp_string.h; sourceTree = "<group>"; };
+		045054F41960594F0041CE3E /* mnp_string_combin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mnp_string_combin.cpp; sourceTree = "<group>"; };
+		045054F8196063DB0041CE3E /* test_fixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_fixture.h; sourceTree = "<group>"; };
+		0462D7FD195DBA5D00073E22 /* mnp_string_iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_iterator.h; sourceTree = "<group>"; };
 		04B7A5FA194F1B2B0031AE62 /* str_manip_unit_tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = str_manip_unit_tests; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B7A5FC194F1B2C0031AE62 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		04B7A604194F1C460031AE62 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
@@ -39,6 +46,11 @@
 		04B7A611195063010031AE62 /* mnp_string_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_impl.h; sourceTree = "<group>"; };
 		04B7A61219506CBA0031AE62 /* mnp_string_funcs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_funcs.h; sourceTree = "<group>"; };
 		04B7A61319506DBA0031AE62 /* mnp_string_funcs_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_funcs_impl.h; sourceTree = "<group>"; };
+		04CD1F0219576B8A006627F6 /* x_fast_trie_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x_fast_trie_impl.h; path = "../fast-trie/x_fast_trie_impl.h"; sourceTree = "<group>"; };
+		04CD1F0319576B8A006627F6 /* x_fast_trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x_fast_trie.h; path = "../fast-trie/x_fast_trie.h"; sourceTree = "<group>"; };
+		04FBE07A195C6F5800A15A5E /* mnp_flyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_flyweight.h; sourceTree = "<group>"; };
+		04FBE07B195C94A100A15A5E /* mnp_string_errors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnp_string_errors.h; sourceTree = "<group>"; };
+		04FBE07C195C95F300A15A5E /* mnp_string_substr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mnp_string_substr.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,11 @@
 				04B7A611195063010031AE62 /* mnp_string_impl.h */,
 				04B7A61219506CBA0031AE62 /* mnp_string_funcs.h */,
 				04B7A61319506DBA0031AE62 /* mnp_string_funcs_impl.h */,
+				04FBE07A195C6F5800A15A5E /* mnp_flyweight.h */,
+				0462D7FD195DBA5D00073E22 /* mnp_string_iterator.h */,
+				04CD1F0319576B8A006627F6 /* x_fast_trie.h */,
+				04CD1F0219576B8A006627F6 /* x_fast_trie_impl.h */,
+				04FBE07B195C94A100A15A5E /* mnp_string_errors.h */,
 				04B7A5FB194F1B2C0031AE62 /* str_manip_unit_tests */,
 				0434A85B194DDBAF0009D8FC /* Products */,
 				04B7A607194F278B0031AE62 /* gtest.framework */,
@@ -86,9 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				04B7A5FC194F1B2C0031AE62 /* main.cpp */,
+				04B7A604194F1C460031AE62 /* test.cpp */,
 				04013C3119507009008A5F4F /* mnp_string_count.cpp */,
 				04013C3219507009008A5F4F /* mnp_string_find.cpp */,
-				04B7A604194F1C460031AE62 /* test.cpp */,
+				04FBE07C195C95F300A15A5E /* mnp_string_substr.cpp */,
+				045054F41960594F0041CE3E /* mnp_string_combin.cpp */,
+				045054F8196063DB0041CE3E /* test_fixture.h */,
 			);
 			path = str_manip_unit_tests;
 			sourceTree = "<group>";
@@ -101,6 +121,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0434A864194DDBCB0009D8FC /* mnp_string.h in Headers */,
+				04CD1F0419576B8A006627F6 /* x_fast_trie_impl.h in Headers */,
+				04CD1F0519576B8A006627F6 /* x_fast_trie.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,8 +204,10 @@
 			files = (
 				04013C3319507009008A5F4F /* mnp_string_count.cpp in Sources */,
 				04013C3419507009008A5F4F /* mnp_string_find.cpp in Sources */,
+				045054F61960594F0041CE3E /* mnp_string_combin.cpp in Sources */,
 				04B7A5FD194F1B2C0031AE62 /* main.cpp in Sources */,
 				04B7A606194F1C460031AE62 /* test.cpp in Sources */,
+				04FBE07E195C95F300A15A5E /* mnp_string_substr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +321,7 @@
 				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -315,6 +340,7 @@
 				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};

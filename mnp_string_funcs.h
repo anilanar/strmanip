@@ -11,8 +11,8 @@
 
 template<class CharT, class Traits, class Allocator>
 class mnp::basic_string<CharT, Traits, Allocator>::string_funcs {
-public:
-    
+private:
+    friend class mnp::basic_string<CharT, Traits, Allocator>;
     static size_t size(const CharT* arr);
     static void copy(const CharT* from, CharT* to, size_t size);
 };
