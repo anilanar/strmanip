@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "my_string.h"
+#include "mnp_string.h"
 
 
 TEST(Constructors, EmptyConstructor) {
