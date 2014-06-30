@@ -309,7 +309,7 @@ __INNER::size_type __CLS::f_find(const_iterator str,
     
     const_iterator org = cbegin();
     const_iterator it = org + start_index;
-    for(; it != cend() - size; ++it) {
+    for(; it != cend() - (size - 1); ++it) {
         if(*it == str.m_ptr[0]) {
             const_iterator it2 = it;
             ++it2;
@@ -357,10 +357,11 @@ __INNER::size_type __CLS::f_find_c(const CharT* const str,
 __TMPL
 __INNER::size_type __CLS::f_count(const_iterator str,
                       const size_type size) const {
+    if(!size) return m_size + 1;
     size_type i = 0, j, c = 0;
     while(i <= m_size - size) {
         if(-1 != (j = f_find(str, i, size))) {
-            i = i + j + 1;
+            i = j + 1;
             c++;
         }
         else return c;

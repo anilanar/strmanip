@@ -28,7 +28,7 @@ protected:
     const int count_r[3][3] = {
         {2, 0, 0},
         {8, 2, 1},
-        {7, 
+        {7, 1, 2}
     };
 };
 
@@ -42,8 +42,6 @@ TEST_P(CombinTest, Lala) {
     int f = std::get<0>(t);
     int s = std::get<1>(t);
     
-    
-    
-//    EXPECT_EQ(str_list[f].count(str_list[s]);
+    EXPECT_EQ(count_r[f][s], str_list[f].count(substr_list[s]));
 }
 

@@ -11,6 +11,7 @@
 		04013C3419507009008A5F4F /* mnp_string_find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04013C3219507009008A5F4F /* mnp_string_find.cpp */; };
 		0434A864194DDBCB0009D8FC /* mnp_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 0434A862194DDBCB0009D8FC /* mnp_string.h */; };
 		045054F61960594F0041CE3E /* mnp_string_combin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045054F41960594F0041CE3E /* mnp_string_combin.cpp */; };
+		047F796E1960F07900C76DBE /* gtest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04B7A607194F278B0031AE62 /* gtest.framework */; };
 		04B7A5FD194F1B2C0031AE62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B7A5FC194F1B2C0031AE62 /* main.cpp */; };
 		04B7A606194F1C460031AE62 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B7A604194F1C460031AE62 /* test.cpp */; };
 		04B7A608194F278B0031AE62 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B7A607194F278B0031AE62 /* gtest.framework */; };
@@ -22,12 +23,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		04B7A5F8194F1B2B0031AE62 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				047F796E1960F07900C76DBE /* gtest.framework in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 

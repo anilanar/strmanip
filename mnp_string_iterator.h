@@ -65,11 +65,17 @@ public:
     }
     
     size_t operator-(const CharT* ptr) {
-        return m_ptr - ptr;
+        if(!m_is_reversed)
+            return m_ptr - ptr;
+        else
+            return ptr - m_ptr;
     }
     
     size_t operator-(const mnp_string_iterator& it) {
-        return m_ptr - it.m_ptr;
+        if(!m_is_reversed)
+            return m_ptr - it.m_ptr;
+        else
+            return it.m_ptr - m_ptr;
     }
     
     const CharT& operator*() {
